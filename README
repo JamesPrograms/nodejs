@@ -6,7 +6,17 @@
     require('./[moduleName]')    ... moduleName为被暴露模块的js文件名
   NodeJS全局对象-global
     process-反应当前NodeJS进程的一个对象
-  Inner module-fs
-  Inner module-stream
+  Inner module -fs
+  Inner module -stream
+
+2017-9-17 learned:
+  inner module -http/url/path
+    url.parse(String) -将字符串解析成url对象
+    path.resolve('.') -获取当前根目录
+  创建文件服务器fileServer.js
+    fs.createReadStream('index.html').pipe(response); -将index.html的内容写入response并渲染到浏览器中
+
+
+
 
 
