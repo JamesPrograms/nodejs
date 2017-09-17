@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-love-web/NodeJS.git"
+  },
+  "author": "james-wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-love-web/NodeJS/issues"
+  },
+  "homepage": "https://github.com/james-love-web/NodeJS#readme",
+  "dependencies": {
+    "koa": "2.0.0"
+  }
+}

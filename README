@@ -15,6 +15,8 @@
     path.resolve('.') -获取当前根目录
   创建文件服务器fileServer.js
     fs.createReadStream('index.html').pipe(response); -将index.html的内容写入response并渲染到浏览器中
+  koa入门
+    async()异步函数  -middleware
 
 
 
