@@ -1,0 +1,5 @@
+<!--base.html定义了三个可编辑的块，分别命名为header、body和footer。子模板可以有选择地对块进行重新定义-->
+{% extends 'base.html' %}
+{% block header %}<h1>{{ header }}</h1>{% endblock %}
+{% block body %}<p>{{ body }}</p>{% endblock %}
+<!--footer没有重定义，所以仍使用父模板的内容-->
